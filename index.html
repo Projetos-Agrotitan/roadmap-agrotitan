@@ -18,6 +18,28 @@
 </head>
 
 <style>
+   
+     html {
+            overflow: auto;
+        }
+          
+        html,
+        body,
+        div,
+        iframe {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            border: none;
+        }
+          
+        iframe {
+            display: block;
+            width: 100%;
+            border: none;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
     
     @font-face {
     font-family: 'Source Sans';
@@ -384,6 +406,12 @@ body {
 
         </div>
 
-        <iframe src="https://melhorias-agrotitan.vercel.app/poste_aqui.html" frameborder="0"></iframe>
+        <iframe src="https://melhorias-agrotitan.vercel.app/poste_aqui.html" 
+                frameborder="0" 
+            marginheight="0" 
+            marginwidth="0" 
+            width="100%" 
+            height="100%" 
+            scrolling="auto""></iframe>
 
     </body>
